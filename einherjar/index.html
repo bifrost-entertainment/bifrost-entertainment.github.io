@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Einherjar</title>
+<style type="text/css">
+body,td,th {
+	color: #FFFFFF;
+}
+body {
+	background-color: #000000;
+}
+#SiteContainer {
+	width: 756px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	background-color: #000000;
+}
+#LogoContainer {
+	width: 704px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#VideoContainer {
+	width: 640px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 480px;
+	background-color: #000000;
+}
+#LeftBorder {
+	width: 180px;
+	margin-left: -122px;
+	margin-top: -480px;
+	height: 480px;
+	min-height: 0px;
+}
+
+#RightBorder {
+	width: 100%;
+	margin-left: 697px;
+	height: 480px;
+	margin-top: -480px;
+	overflow-x: hidden;
+}
+#BottomBorder {
+	width: 640px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 153px;
+	margin-top: -126px;
+}
+#BifrostContainer {
+	width: 234px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+
+#BackgroundLeft {
+	height: 375px;
+	position: absolute;
+	background-image: url(bgRepeat.png);
+	background-repeat: repeat-x;
+	width: 100%;
+	margin-left: -50%;
+	overflow-x: hidden;
+	margin-top: -480px;
+	z-index: -1;
+}
+#BackgroundRight {
+	height: 375px;
+	position: absolute;
+	background-image: url(bgRepeat.png);
+	background-repeat: repeat-x;
+	width: 100%;
+	overflow-x: no-display;
+	margin-top: -480px;
+	z-index: -1;
+	margin-left: 756px;
+}
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#SloganContainer {
+	width: 636px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -12px;
+}
+#gutter {
+	height: 100px;
+}
+</style>
+</head>
+
+<body>
+<div class="SiteContainer" id="SiteContainer">
+  <div class="LogoContainer" id="LogoContainer">
+	<img src="logo.png" width="704" height="461" alt=""/>
+    <div class="SloganContainer" id="SloganContainer"><img src="slogan.png" width="636" height="46" alt=""/></div>
+  </div>
+  <div class="VideoContainer" id="VideoContainer">
+  	<iframe width="640" height="360" src="//www.youtube.com/embed/PQrN9tmHV24" frameborder="0" allowfullscreen></iframe>
+  	</div>
+  <div class="BackgroundLeft" id="BackgroundLeft"></div>
+  <div class="BackgroundRight" id="BackgroundRight"></div>
+  
+  <div class="LeftBorder" id="LeftBorder">
+    <img src="leftBorder.png" width="180" height="407" alt=""/>
+  </div>
+  <div class="RightBorder" id="RightBorder">
+  <img src="rightBorder.png" width="180" height="407" alt=""/>
+  </div>
+  <div class="BottomBorder" id="BottomBorder">
+    <img src="bottomBorder.png" width="640" height="153" alt=""/>
+  </div>
+</div>
+</body>
+</html>

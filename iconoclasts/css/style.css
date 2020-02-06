@@ -1,0 +1,266 @@
+body
+{
+    background-color: rgba(28 , 28 , 33 , 1);
+}
+
+p 
+{
+    color: rgba(247 , 249 , 229 , 1);
+}
+
+p.footer
+{
+    color: rgba(247 , 249 , 229 , 1);
+}
+
+#banner-container
+{
+    background-color: rgba(53,96,153,1);
+}
+
+#top-left-bush, #top-right-bush, #bottom-left-bush, #bottom-right-bush, #banner-moon, #banner-robin, .banner-border-top, .banner-border-bottom, .footer-border-top, .footer-border, .footer-border-bottom
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.banner-border-top, .banner-border-bottom, .footer-border-top, .footer-border-bottom
+{
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
+#banner-bg
+{
+    background-image: url("../images/sky.png");
+    background-repeat: repeat-x;
+}
+
+#top-left-bush
+{
+    background-image: url("../images/top-left-bush.png");
+    background-position: left;
+}
+
+#top-right-bush
+{
+    background-image: url("../images/top-right-bush.png");
+    background-position: right;
+}
+
+#bottom-left-bush
+{
+    background-image: url("../images/bottom-left-bush.png");
+    background-position: left;
+}
+
+#bottom-right-bush
+{
+    background-image: url("../images/bottom-right-bush.png");
+    background-position: right;
+}
+
+#banner-moon
+{
+    background-image: url("../images/moon.png");
+}
+
+#banner-robin
+{
+    background-image: url("../images/robin.gif");
+}
+
+.banner-border-top
+{
+    background-image: url("../images/top-blue-border.png");
+    background-color: rgba(44,29,65,1);
+    margin-top: -30px;
+}
+
+.banner-border
+{
+    background-color: rgba(53,96,153,1);
+}
+
+.banner-border-bottom
+{
+    background-color: rgba(17,17,56,1);
+    background-image: url("../images/bottom-blue-border.png");
+}
+
+.frame-purple
+{
+    padding: 0% 0;
+    border: solid 3px rgba( 62 , 43 , 109 , 1 );
+}
+
+.footer-border-top
+{
+    background-color: rgba(17,17,56,1);
+    background-image: url("../images/top-purple-border.png");
+    background-position: bottom;
+}
+
+.footer-border
+{
+    background-repeat: repeat;
+    background-image: url("../images/purple-tile.png");
+}
+
+.footer-border-bottom
+{
+    background-image: url("../images/bottom-purple-border.png");
+    background-position: bottom;
+}
+
+@media all and (min-width: 1281px)
+{
+    #top-left-bush, #top-right-bush, #bottom-left-bush, #bottom-right-bush, #banner-moon, #banner-robin, #banner-logo, .banner-border-top, .banner-border-bottom
+    {
+        background-size: auto;
+    }
+    
+    #top-left-bush, #top-right-bush, #bottom-left-bush, #bottom-right-bush
+    {
+        min-width: 442px;
+        padding-bottom: 562px;
+    }
+
+    #top-left-bush
+    {
+        margin-top: -800px;
+    }
+
+    #top-right-bush
+    {
+        margin-top: -562px;
+    }
+
+    #bottom-left-bush
+    {
+        margin-top: -324px;
+    }
+    
+    #bottom-right-bush
+    {
+        margin-top: -562px;
+    }
+
+    #banner-moon
+    {
+        min-width: 412px;
+        padding-bottom: 800px;
+        margin-top: -1000px;
+        margin-left: -200px;
+    }
+
+    #banner-robin
+    {
+        min-width: 462px;
+        padding-bottom: 622px;
+        margin-top: -422px;
+        margin-left: 200px;
+    }
+
+    .banner-border-top
+    {
+        padding-bottom: 92px;
+    }
+
+    .banner-border-bottom
+    {
+        padding-bottom: 34px;
+        margin-bottom: 20px;
+    }
+
+    .footer-border-top
+    {
+        padding-bottom: 68px;
+        margin-top: 20px;
+    }
+
+    .footer-border-bottom
+    {
+        padding-bottom: 164px;
+    }
+}
+
+@media all and (max-width: 1280px)
+{
+    #top-left-bush, #top-right-bush, #bottom-left-bush, #bottom-right-bush, #banner-moon, #banner-robin, .banner-border-top, .banner-border-bottom, .footer-border-top, .footer-border-bottom
+    {
+        background-size: contain;
+    }
+
+    #top-left-bush, #top-right-bush, #bottom-left-bush, #bottom-right-bush
+    {
+        min-width: 34.53125%;
+        padding-bottom: 43.90625%;
+    }
+
+    #top-left-bush
+    {
+        margin-top: -62.5%;
+    }
+
+    #top-right-bush
+    {
+        margin-top: -43.90625%;
+    }
+
+    #bottom-left-bush
+    {
+        margin-top: -25.3125%;
+    }
+    
+    #bottom-right-bush
+    {
+        margin-top: -43.90625%;
+    }
+    
+    #banner-moon
+    {
+        width: 32.1875%;
+        padding-bottom: 62.5%;
+        margin-top: -78.125%;
+        margin-left: 18.4%;
+    }
+
+    #banner-robin
+    {
+        min-width: 36.09375%;
+        padding-bottom: 48.59375%;
+        margin-top: -32.96875%;
+        margin-left: 15.625%;
+    }
+
+    .banner-border-top
+    {
+        padding-bottom: 7.1875%;
+    }
+
+    .banner-border-bottom
+    {
+        padding-bottom: 2.65625%;
+        margin-bottom: 1.6%;
+    }
+
+    .footer-border-top
+    {
+        margin-top: 1.6%;
+        padding-bottom: 5.3125%;
+    }
+
+    .footer-border-bottom
+    {
+        margin-top: -3.6%;
+        padding-bottom: 12.8125%;
+    }
+        
+    .banner-border
+    {
+        margin-top: -2%;
+    }
+}

@@ -1,0 +1,167 @@
+div.youtubevideowrap
+{
+    width: 80%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+}
+
+.video iframe, .video object, .video embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+img
+{
+    width: 100%;
+    height: auto;
+}
+
+.myriadLogo
+{
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linkBanner
+{
+    background-color: #ffffff;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linksContainer
+{
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 720px;
+}
+
+.linkContainer
+{
+    float: left;
+    height: 70px;
+}
+
+.twitter
+{
+}
+
+.presskit
+{
+}
+
+.contact
+{
+}
+
+div.tumblr
+{
+    max-width: 1140px;;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+}
+
+ol.tumblr_posts
+{
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+}
+
+li.tumblr_post
+{
+    background-color: #e3e3e3;
+    padding: 10 20px;
+    margin: 20px 0;
+}
+
+.tumblr_text_post
+{
+}
+
+.tumblr_title
+{
+    font-size: 50px;
+}
+
+div.tumblr_body
+{
+
+}
+
+.tumblr_photo
+{
+   max-width: 80%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+div.tumblr_caption
+{
+
+}
+
+.greenlight
+{
+    max-width: 1140px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quoteContainer
+{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote
+{
+    margin-top: 120px;
+    max-width: 1140px;
+    height: auto;
+}
+
+.footer
+{
+    background-color: #ffffff;
+    margin-top: 120px;
+    max-height: 235px;
+}
+
+.footerLogoContainer
+{
+    max-width: 235px;
+    max-height: 235px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerLogo
+{
+}
+
+body
+{
+    background-color: black;
+}

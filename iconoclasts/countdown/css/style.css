@@ -1,0 +1,479 @@
+body
+{
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-color: rgba(28 , 28 , 33 , 1);
+    background-image: url("../images/bg.png");
+    background-size: auto;
+}
+
+p 
+{
+    color: rgba(247 , 249 , 229 , 1);
+    font-size-adjust: auto;
+}
+
+p.center 
+{
+    text-align: center;
+}
+
+p.footer
+{
+    color: rgba(28 , 28 , 33 , 1);
+    text-align: center;
+}
+
+.video
+{
+  width: 100%;
+  position: relative;
+  padding: 0;
+}
+
+.video iframe,
+.video object,
+.video embed 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#banner-container
+{
+    width: 100%; 
+    margin: 0 auto; 
+    margin-top: -25px;
+    background-color: rgba(53,96,153,1);
+}
+
+#banner-wrapper
+{
+    margin: 0 auto;
+    width: 100%;
+}
+
+#logo-container
+{
+    width: 100%; 
+}
+
+#banner-bg, #top-left-bush, #top-right-bush, #bottom-left-bush, #bottom-right-bush, #banner-moon, #banner-robin, #banner-logo, #pre-order, #shop-steam, #shop-steam, #shop-humble, #shop-gog, #bifrost, .blue-top, .blue-bottom, .purple-top, .purple-bg, .purple-bottom
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.blue-top, .blue-bottom, .purple-top, .purple-bottom
+{
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
+#banner-bg
+{
+    background-image: url("../images/sky.png");
+    background-repeat: repeat-x;
+}
+
+#top-left-bush
+{
+    background-image: url("../images/top-left-bush.png");
+    background-position: left;
+}
+
+#top-right-bush
+{
+    background-image: url("../images/top-right-bush.png");
+    background-position: right;
+}
+
+#bottom-left-bush
+{
+    background-image: url("../images/bottom-left-bush.png");
+    background-position: left;
+}
+
+#bottom-right-bush
+{
+    background-image: url("../images/bottom-right-bush.png");
+    background-position: right;
+}
+
+#banner-moon
+{
+    background-image: url("../images/moon.png");
+}
+
+#banner-robin
+{
+    background-image: url("../images/robin.gif");
+}
+
+#banner-logo
+{
+    background-image: url("../images/logo.png");
+}
+
+#logo-spacer
+{
+    background-color: rgba(53,41,97,1);
+    width: 100%; 
+}
+
+.container
+{
+    width: 100%;
+}
+
+.max-container
+{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%; 
+}
+
+.min-container
+{
+    clear: left;
+    margin: 0 auto;
+    max-width: 960px;
+    width: 80%; 
+}
+
+.blue-top
+{
+    background-image: url("../images/top-blue-border.png");
+    background-color: rgba(44,29,65,1);
+    margin-top: -30px;
+}
+
+.blue-bg
+{
+    background-color: rgba(53,96,153,1);
+}
+
+#pre-order
+{
+    background-image: url("../images/preorder-now.png");
+}
+
+#shop-steam
+{
+    background-image: url("../images/steam.png");
+}
+
+#shop-humble
+{
+    background-image: url("../images/humble.png");
+}
+
+#shop-gog
+{
+    background-image: url("../images/gog.png");
+}
+
+.blue-bottom
+{
+    background-color: rgba(17,17,56,1);
+    background-image: url("../images/bottom-blue-border.png");
+}
+
+#shop-container
+{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.frame-purple
+{
+    padding: 0% 0;
+    border: solid 3px rgba( 62 , 43 , 109 , 1 );
+}
+
+.purple-top
+{
+    background-color: rgba(17,17,56,1);
+    background-image: url("../images/top-purple-border.png");
+    background-position: bottom;
+}
+
+.purple-bg
+{
+    background-repeat: repeat;
+    background-image: url("../images/purple-tile.png");
+}
+
+#bifrost
+{
+    background-image: url("../images/bifrost.png");
+}
+
+.purple-bottom
+{
+    background-image: url("../images/bottom-purple-border.png");
+    background-position: bottom;
+}
+
+@media all and (min-width: 1281px)
+{
+    p.footer
+    {
+        color: rgba(28 , 28 , 33 , 1);
+        text-align: center;
+        margin-top: 5px;
+        padding-bottom: 10px;
+    }
+
+    #logo-spacer
+    {
+        margin-top: 125px;
+        padding-bottom: 100px; 
+    }
+
+    #banner-bg, #top-left-bush, #top-right-bush, #bottom-left-bush, #bottom-right-bush, #banner-moon, #banner-robin, #banner-logo, .blue-top, #pre-order, #shop-steam, #shop-gog, #shop-humble, .blue-bottom, #bifrost
+    {
+        background-size: auto;
+    }
+    
+    #top-left-bush, #top-right-bush, #bottom-left-bush, #bottom-right-bush
+    {
+        min-width: 442px;
+        padding-bottom: 562px;
+    }
+
+    #top-left-bush
+    {
+        margin-top: -800px;
+    }
+
+    #top-right-bush
+    {
+        margin-top: -562px;
+    }
+
+    #bottom-left-bush
+    {
+        margin-top: -324px;
+    }
+    
+    #bottom-right-bush
+    {
+        margin-top: -562px;
+    }
+
+    #banner-bg
+    {
+        min-width: 1280px;
+        padding-bottom: 800px;
+    }
+    
+    #banner-moon
+    {
+        min-width: 412px;
+        padding-bottom: 800px;
+        margin-top: -1000px;
+        margin-left: -200px;
+    }
+
+    #banner-robin
+    {
+        min-width: 462px;
+        padding-bottom: 622px;
+        margin-top: -422px;
+        margin-left: 200px;
+    }
+
+    #banner-logo
+    {
+        margin-top: -200px;
+        width: 930px;
+        padding-bottom: 185px;
+    }
+
+    .blue-top
+    {
+        padding-bottom: 92px;
+    }
+
+    #pre-order
+    {
+        margin-top: 15px;
+        padding-top: 20px;
+        padding-bottom: 76px;
+    }
+        
+    #shop-steam, #shop-humble, #shop-gog
+    {
+        padding-bottom: 150px;
+    }
+
+    .blue-bottom
+    {
+        padding-bottom: 34px;
+        margin-bottom: 20px;
+    }
+
+    .purple-top
+    {
+        padding-bottom: 68px;
+        margin-top: 20px;
+    }
+
+    #bifrost
+    {
+        padding-bottom: 284px;
+    }
+
+    .purple-bottom
+    {
+        margin-top: -16px;
+        padding-bottom: 164px;
+    }
+
+    #shop-container
+    {
+        padding-top: 20px;
+    }
+}
+
+@media all and (max-width: 1280px)
+{
+    p.footer
+    {
+        color: rgba(28 , 28 , 33 , 1);
+        text-align: center;
+        margin-top: 0.4%;
+        padding-bottom: 0.8%;
+    }
+
+    #logo-container
+    {
+        margin-top: -3.90625%;
+    }
+
+    #logo-spacer
+    {
+        margin-top: 9.765625%;
+        padding-bottom: 7.8125%; 
+    }
+    
+    #banner-bg, #top-left-bush, #top-right-bush, #bottom-left-bush, #bottom-right-bush, #banner-moon, #banner-robin, #banner-logo, .blue-top, #pre-order, #shop-steam, #shop-gog, #shop-humble, .blue-bottom, #bifrost, .purple-top, .purple-bottom
+    {
+        background-size: contain;
+    }
+
+    #top-left-bush, #top-right-bush, #bottom-left-bush, #bottom-right-bush
+    {
+        min-width: 34.53125%;
+        padding-bottom: 43.90625%;
+    }
+
+    #top-left-bush
+    {
+        margin-top: -62.5%;
+    }
+
+    #top-right-bush
+    {
+        margin-top: -43.90625%;
+    }
+
+    #bottom-left-bush
+    {
+        margin-top: -25.3125%;
+    }
+    
+    #bottom-right-bush
+    {
+        margin-top: -43.90625%;
+    }
+
+    #banner-bg
+    {
+        min-width: 100%;
+        padding-bottom: 62.5%;
+    }
+    
+    #banner-moon
+    {
+        width: 32.1875%;
+        padding-bottom: 62.5%;
+        margin-top: -78.125%;
+        margin-left: 18.4%;
+    }
+
+    #banner-robin
+    {
+        min-width: 36.09375%;
+        padding-bottom: 48.59375%;
+        margin-top: -32.96875%;
+        margin-left: 15.625%;
+    }
+
+    #banner-logo
+    {
+        margin-top: -15.65%;
+        padding-bottom: 14.609375%;
+        width: 72.65625%;
+    }
+    
+    .blue-top
+    {
+        padding-bottom: 7.1875%;
+    }
+
+    #pre-order
+    {
+        margin-top: 2.9%;
+        padding-top: 1%;
+        padding-bottom: 5.9375%;
+        width: 48.75%;
+    }
+        
+    #shop-steam, #shop-humble, #shop-gog
+    {
+        padding-bottom: 11.71875%;
+    }
+
+    .blue-bottom
+    {
+        padding-bottom: 2.65625%;
+        margin-bottom: 1.6%;
+    }
+
+    .purple-top
+    {
+        margin-top: 1.6%;
+        padding-bottom: 5.3125%;
+    }
+
+    #bifrost
+    {
+        padding-bottom: 22.1875%;
+    }
+
+    .purple-bottom
+    {
+        margin-top: -3.6%;
+        padding-bottom: 12.8125%;
+    }
+    
+    #shop-container
+    {
+        padding-top: 1.5625%;
+        height: 13.28125%;
+    }
+        
+    .blue-bg
+    {
+        margin-top: -2%;
+    }
+}
