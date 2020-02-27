@@ -202,6 +202,59 @@ footer,
   font-size: 1.6em;
 }
 
+.flexbox {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.twitter {
+  background: url("../img/social-twitter.png") no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+}
+
+.twitter:hover {
+  background: url("../img/social-twitter_h.png") no-repeat;
+  background-size: contain;
+}
+
+.facebook {
+  background: url("../img/social-facebook.png") no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+}
+
+.facebook:hover {
+  background: url("../img/social-facebook_h.png") no-repeat;
+  background-size: contain;
+}
+
+.discord {
+  background: url("../img/social-discord.png") no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+}
+
+.discord:hover {
+  background: url("../img/social-discord_h.png") no-repeat;
+  background-size: contain;
+}
+
+.email {
+  background: url("../img/social-email.png") no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+}
+
+.email:hover {
+  background: url("../img/social-email_h.png") no-repeat;
+  background-size: contain;
+}
+
 @media handheld, only screen and (max-width: 767px) {
   body {
     font-size: 1.8rem;
